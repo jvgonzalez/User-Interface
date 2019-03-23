@@ -135,21 +135,21 @@ main img {
 	margin: 40px 0 40px
 }
 
-.top-content section {
+.content section {
 	display: inline-block;
 	margin-left: 12px;
 	width: 280px;
 }
 
-.top-content:first-child section {
+.content:first-child section {
 	width: 430px;
 }
 
-.top-content section:first-child {
+.content section:first-child {
 	margin: 0;
 }
 
-.top-content section p {
+.content section p {
 	line-height: 1.25em;
 }
 
