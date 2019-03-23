@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing:border-box;
 }
 
 html, body {
@@ -63,4 +63,98 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container {
+	margin: 26px auto;
+	width:  876px;
+}
+
+header {
+	height: 565px;
+}
+
+.navigation a{
+	border-radius: 2px;
+	color: grey;
+	font-size: 15px;
+	padding: 5px 8px;
+	margin-right: 25px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	background-color: green;
+	color: white;
+}
+
+.navigation img {
+	display: inline-block;
+	margin-left: 105px;
+	padding:11px;
+	vertical-align: middle;
+}
+
+.main-header section {
+	width: 490px;
+	height: 372px;
+	margin-top: 120px;
+	margin-bottom: 50px;
+	text-align:center;
+	vertical-align:top;
+	display: inline-block
+}
+
+.main-header section h2 {
+	font-size: 80px;
+}
+
+.main-header section button{
+	border: 1px solid green;
+	border-radius: 5px;
+	color: black;
+	padding: 5px 40px;
+	text-decoration: none;
+	}
+
+.main-header section button:hover {
+	background-color: green;
+	color: white;
+}
+
+.main-header img {
+	margin-top: 70px;
+}
+
+main {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-bottom: 40px;
+	padding: 40px 0 40px;
+}
+
+main img {
+	margin: 40px 0 40px
+}
+
+.top-content section {
+	display: inline-block;
+	margin-left: 12px;
+	width: 280px;
+}
+
+.top-content:first-child section {
+	width: 430px;
+}
+
+.top-content section:first-child {
+	margin: 0;
+}
+
+.top-content section p {
+	line-height: 1.25em;
+}
+
+footer p{
+	font-size: 13px;
+	margin: 55px 0 120px;
+	text-align: center;
+}
